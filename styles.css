@@ -9,7 +9,7 @@ body {
     max-width: 1800px;
     justify-self: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
+    background-color: rgb(22, 22, 22);
 }
 
 .top {
@@ -31,8 +31,7 @@ li {
 
 .header-info {
     display: flex;
-    justify-content: center;
-    margin: 100px auto; 
+    margin: 100px 300px; 
 }
 
 .header {
@@ -45,7 +44,7 @@ li {
 
 .left p {
     font-size: 19px;
-    max-width: 400px;
+    width: 400px;
     margin: 5px auto; 
     }
 
@@ -58,21 +57,108 @@ h1 {
     max-width: 300px;
 }
 
-.button-one {
+.button-one, .button-two {
     padding: 5px 20px;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: bold;
-    background-color: rgb(43, 47, 255);
-    color: rgb(255, 255, 255);
+    background-color: rgb(52, 95, 238);
     border-radius: 10px;
+    margin: auto 100px;  
+    color: rgb(255, 255, 255);
+}
+
+.button-one {
     margin: 10px;
     margin-left: 0;
+    border: 0;
 }
 
 .img {
     align-self: center; 
     background-color: rgb(128, 128, 128);
-    padding: 100px;
-    margin: auto;
+    margin: auto 40px;
+    padding: 100px 150px; 
     font-size: 20px;
+    flex-shrink: 0;
 }
+
+.body {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 75px;
+}
+
+.box-info {
+    display: flex;
+    justify-content: center;
+}
+
+.subtext-img {
+    max-width: 160px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+h3 {
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.box {
+    border: solid 2px rgb(0, 0, 255);
+    height: 150px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    background-color: rgb(224, 222, 222);
+    font-size: 40px;
+    padding: 85px;
+    justify-items: center;
+}
+ .quote p {
+    max-width: 915px;
+ }
+
+ .quote p:nth-last-of-type(1) {
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 30px;
+    padding-left: 500px;
+ }
+
+ .footer {
+    background-color: rgb(22, 22, 63);
+    color: rgb(255, 255, 255);
+ }
+
+ .sign-up {
+    background-color: rgb(255, 255, 255);
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .center {
+        background-color: rgb(52, 95, 238);
+        padding: 50px;
+        border: 0;
+        display: flex;
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+ }
+
+ .button-two {
+    border: solid 2px rgb(255, 255, 255);
+ }
+
+ .center p:nth-of-type(1) {
+    font-weight: bold;
+ }
+
+ .footer {
+    padding: 40px;
+    justify-items: center;
+ }
