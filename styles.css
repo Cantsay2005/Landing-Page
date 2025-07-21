@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     max-width: 1800px;
     justify-self: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto;
     background-color: rgb(22, 22, 22);
 }
 
@@ -22,7 +22,6 @@ body {
 .links ul{
     display: flex;
     list-style-type: none;
-
 }
 
 li {
@@ -34,18 +33,21 @@ li {
     margin: 100px 300px; 
 }
 
-.header {
-    background-color: rgb(18, 18, 44);
-    color: rgb(255, 255, 255);
+.header-logo {
+    font-size: 24px;
+    color: rgb(249, 250, 248)
 }
 
-
-
+.header {
+    background-color: rgb(31, 41, 55);
+    color: rgb(249, 250, 248);
+}
 
 .left p {
-    font-size: 19px;
+    font-size: 18px;
     width: 400px;
     margin: 5px auto; 
+    color: rgb(229, 231, 235);
     }
 
 a {
@@ -55,13 +57,15 @@ a {
 
 h1 {
     max-width: 300px;
+    font-weight: 900;
+    color: rgb(249, 250, 248);
 }
 
 .button-one, .button-two {
     padding: 5px 20px;
     font-size: 19px;
     font-weight: bold;
-    background-color: rgb(52, 95, 238);
+    background-color: rgb(56, 130, 246);
     border-radius: 10px;
     margin: auto 100px;  
     color: rgb(255, 255, 255);
@@ -91,31 +95,35 @@ h1 {
 .box-info {
     display: flex;
     justify-content: center;
+    gap: 40px;
 }
 
 .subtext-img {
-    max-width: 160px;
-    margin: 20px;
+    max-width: 165px;
     font-size: 18px;
 }
 
 h3 {
     margin-bottom: 50px;
-    font-size: 35px;
+    font-size: 36px;
+    color: rgb(31, 41, 55);
+    font-weight: 900;
 }
 
 .box {
     border: solid 2px rgb(0, 0, 255);
     height: 150px;
-    border-radius: 25px;
+    border-radius: 15px;
     margin-bottom: 10px;
 }
 
 .quote {
-    background-color: rgb(224, 222, 222);
-    font-size: 40px;
+    background-color: rgb(229, 231, 235);
+    font-size: 36px;
+    font-style: italic;
     padding: 85px;
     justify-items: center;
+    color: rgb(31, 41, 55)
 }
  .quote p {
     max-width: 915px;
@@ -128,25 +136,20 @@ h3 {
     padding-left: 500px;
  }
 
- .footer {
-    background-color: rgb(22, 22, 63);
-    color: rgb(255, 255, 255);
- }
-
  .sign-up {
     background-color: rgb(255, 255, 255);
     padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgb(255, 255, 255);
  }
 
  .center {
-        background-color: rgb(52, 95, 238);
+        background-color: rgb(56, 130, 246);
         padding: 50px;
         border: 0;
         display: flex;
-        color: rgb(255, 255, 255);
         border-radius: 10px;
  }
 
@@ -161,4 +164,6 @@ h3 {
  .footer {
     padding: 40px;
     justify-items: center;
+    background-color: rgb(22, 22, 63);
+    color: rgb(255, 255, 255);
  }
